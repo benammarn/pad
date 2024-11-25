@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "Run",
-            "command": "./build/NiceString",
+            "command": "cmake -S . -B ./build && cd ./build && make && clear && ./hashtable",
             "type": "shell",
         }
     ]
