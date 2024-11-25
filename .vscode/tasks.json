@@ -8,7 +8,7 @@
         },
         {
             "label": "Run",
-            "command": " ./build/${config:project}",
+            "command": " clear && ./build/${config:project}",
             "type": "shell",
             "dependsOn": "Build"
         },
