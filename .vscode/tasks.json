@@ -2,9 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run",
-            "command": "cmake -S . -B ./build && cd ./build && make && clear && ./hashtable",
+            "label": "Build",
+            "command": "cmake -S . -B ./build && cd ./build && make",
             "type": "shell",
-        }
+        },
+        {
+            "label": "Run",
+            "command": " ./build/${config:project}",
+            "type": "shell",
+            "dependsOn": "Build"
+        },
+        
     ]
 }
