@@ -20,7 +20,7 @@
                 }
             ],
             "miDebuggerPath": "/usr/bin/gdb",  // Path to gdb on your system
-            "preLaunchTask": "CMake: Build and Run", // Make sure to run the build task before launching
+            "preLaunchTask": "Build", // Make sure to run the build task before launching
             "miDebuggerArgs": "",
             "logging": {
                 "moduleLoad": false,
